@@ -6,6 +6,6 @@ navigator.geolocation.getCurrentPosition(
         console.log(position.coords.longitude)
     },
     error => {
-        console.log("Error")
+        console.log("Error mano")
     }
 )
