@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>API's</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1{
+            color: black;
+        }
+
+        img{
+            filter: drop-shadow(2px 2px 10px gray);
+        }
+
+        li[data-continent="Suramerica"]{
+            background-color: rgb(59, 57, 57);
+        }
+
+        li[data-continent="Europa"]{
+            background-color: rgb(207, 203, 203);
+        }
+
+        li[data-continent="Africa"]{
+            background-color: rgb(244, 137, 15);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Atributos HTML personalizados para JS</h1>
+
+    <ul id="lista">
+        <li data-continent="Suramerica">Colombia</li>
+        <li data-continent="Europa">Alemania</li>
+        <li data-continent="Africa">Costa de Marfíl</li>
+        <li data-continent="Europa">España</li>
+    </ul>
+
+</body>
+</html>

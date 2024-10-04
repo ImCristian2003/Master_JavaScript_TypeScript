@@ -1,0 +1,5 @@
+#vamos a ignorar un archivo
+#*txt -> para ignorar todo lo terminado en .txt
+para_ignorar.txt
+
+#!readme.txt -> no ignorar un archivo en específico
